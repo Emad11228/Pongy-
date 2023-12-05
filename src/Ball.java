@@ -37,7 +37,7 @@ public class Ball extends Rectangle {
     }
 
     public void draw(Graphics g) {
-        g.setColor(Color.white);
+        g.setColor(Color.yellow);
         g.fillOval(x, y, height, width);
     }
 }
